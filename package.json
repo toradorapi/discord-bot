@@ -1,0 +1,24 @@
+{
+  "name": "toradorapi-dbot",
+  "version": "1.0.0",
+  "description": "A Discord Bot providing fanarts, images, information and much much more about the anime \"Toradora!\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toradorapi/discord-bot.git"
+  },
+  "author": "CRUGG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toradorapi/discord-bot/issues"
+  },
+  "homepage": "https://github.com/toradorapi/discord-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "snekfetch": "^4.0.4"
+  }
+}
