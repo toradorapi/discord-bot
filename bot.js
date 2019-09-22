@@ -34,7 +34,7 @@ client.on("ready", () => {
         } else {
             status = 0;
         }
-    }, 12000)
+    }, 15000)
 });
 
 client.on("message", async message => {
