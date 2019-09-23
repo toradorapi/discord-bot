@@ -30,6 +30,9 @@ client.on("ready", () => {
             status = 6;
         } else if(status === 6) {
             client.user.setActivity("Silky Heart", { type: 'LISTENING' });
+            status = 7;
+        } else if(status === 7) {
+            client.user.setActivity("Anime", { type: 'WATCHING' });
             status = 0;
         } else {
             status = 0;
